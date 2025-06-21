@@ -66,3 +66,19 @@ body {
 .next {
   right: 10px;
 }
+
+/* Адаптив */
+@media (max-width: 600px) {
+  .slider {
+    aspect-ratio: 4/3;
+  }
+  .nav {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .pagination .dot {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
